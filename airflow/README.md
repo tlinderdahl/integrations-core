@@ -50,7 +50,7 @@ Connect Airflow to DogStatsD (included in the Datadog Agent) by using the Airflo
 2. Update the Airflow configuration file `airflow.cfg` by adding the following configs:
 
    ```conf
-   [scheduler]
+   [metrics]
    statsd_on = True
    # Hostname or IP of server running the Datadog Agent
    statsd_host = localhost  
